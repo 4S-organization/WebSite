@@ -23,12 +23,18 @@ nav {
     left:40%;
 }
 
-.nav_item {
+.nav_item{
     font-family: 'Nunito', sans-serif;
     margin-left: 15px;
     font-size: 20px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
 }
 
+.nav_item:hover {
+    color: #098dba;
+}
 
 article {
     background-repeat: no-repeat;
