@@ -1,0 +1,78 @@
+body {
+    margin:0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#303030;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 25%;
+}
+
+.logo a{
+    text-decoration: none;
+    color:#303030;
+}
+
+nav {
+    position: relative;
+    left:40%;
+}
+
+.nav_item {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 15px;
+    font-size: 20px;
+    transition:color .3s linear;
+    text-decoration: none;
+    color:#303030
+}
+
+.nav_item:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+article {
+    margin-top: 35px;
+}
+
+
+.headers {
+    margin: auto;
+    height: 30px;
+    display: flex;
+}
+
+.header_item {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 20%;
+    font-size: 25px;
+    display: flex;
+}
+
+
+.rcontent_item {
+    display:inline-block;
+    margin-left: 42%;
+}
+
+.rcontent_item img{
+    margin-top: 15px;
+}
+
+.rocket_name {
+    display: flex;
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+} 
