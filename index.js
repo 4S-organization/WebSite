@@ -3,7 +3,7 @@ const app = express()
 const exphbs = require('express-handlebars')
 const todoRoutes = require('./routes/todos')
 
-PORT = process.env.PORT || 80
+PORT = process.env.PORT || 8080
 
 const hbs = exphbs.create({
     defaultLayout: 'main',
