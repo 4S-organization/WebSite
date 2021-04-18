@@ -1,13 +1,13 @@
 const {Router} = require('express')
 const router = Router()
 
-router.get('89.223.125.156/', (req, res) => {
+router.get('/', (req, res) => {
     res.render('index', {
         title: 'Главная'
     })
 })
 
-router.get('89.223.125.156/rockets', (req, res) => {
+router.get('/rockets', (req, res) => {
     res.render('rockets', {
         title: 'Ракеты'
     })

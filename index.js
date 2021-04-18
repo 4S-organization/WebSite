@@ -4,6 +4,7 @@ const exphbs = require('express-handlebars')
 const todoRoutes = require('./routes/todos')
 
 PORT = process.env.PORT || 8080
+const hostname = 'localhost';
 
 const hbs = exphbs.create({
     defaultLayout: 'main',
@@ -19,8 +20,8 @@ app.use(express.static('static'))
 
 async function start() {
     try {
-        app.listen(PORT, () => {
-            console.log('Server has been started')
+        app.listen(PORT, hostname, () => {
+            console.log('Server running at http://' + hostname + ":" + PORT)
         })
     } catch (e) {
         console.log(e)
