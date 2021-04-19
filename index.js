@@ -5,7 +5,7 @@ const todoRoutes = require('./routes/todos')
 const http = require('http')
 
 PORT = 8089;
-const hostname = 'localhost';
+const hostname = '0.0.0.0';
 
 const hbs = exphbs.create({
     defaultLayout: 'main',
